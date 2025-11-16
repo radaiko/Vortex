@@ -2,6 +2,7 @@
 
 ## Project Overview
 Vortex is a cross-platform C# implementation of WebGPU, designed for use with MAUI, Avalonia, and Blazor. It provides a 3D rendering engine focused on performance and ease of integration.
+Vortex maintains its own WebGPU implementation based on the official specification (https://www.w3.org/TR/webgpu/) to ensure consistent, standards-compliant behavior across platforms.
 
 ## Project Structure
 - **Vortex.Common**: Shared utilities, helpers, and common types (e.g., math libraries, asset loaders). No platform-specific code.
