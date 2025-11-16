@@ -1,9 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="../Vortex.Common/Vortex.Common.csproj"/>
+        <ProjectReference Include="../Vortex.Controls/Vortex.Controls.csproj"/>
+        <ProjectReference Include="../Vortex.Gl/Vortex.Gl.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1"/>
+        <PackageReference Include="Microsoft.TestPlatform" Version="18.0.1"/>
+        <PackageReference Include="xunit" Version="2.5.0"/>
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.5.0"/>
+    </ItemGroup>
 
 </Project>

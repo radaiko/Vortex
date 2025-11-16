@@ -1,8 +1,9 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Vortex.Common/Vortex.Common.csproj" />
-    <Project Path="src/Vortex.Examples/Vortex.Examples.csproj" />
-    <Project Path="src/Vortex.Gl/Vortex.Gl.csproj" />
-    <Project Path="src/Vortex.Tests/Vortex.Tests.csproj" />
-  </Folder>
+    <Folder Name="/src/">
+        <Project Path="src/Vortex.Common/Vortex.Common.csproj"/>
+        <Project Path="src/Vortex.Controls/Vortex.Controls.csproj"/>
+        <Project Path="src/Vortex.Examples/Vortex.Examples.csproj"/>
+        <Project Path="src/Vortex.Gl/Vortex.Gl.csproj"/>
+        <Project Path="src/Vortex.Tests/Vortex.Tests.csproj"/>
+    </Folder>
 </Solution>

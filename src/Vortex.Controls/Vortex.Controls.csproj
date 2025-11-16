@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
@@ -7,7 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="obj\ObjLoader.cs"/>
+        <ProjectReference Include="../Vortex.Gl/Vortex.Gl.csproj"/>
+        <ProjectReference Include="../Vortex.Common/Vortex.Common.csproj"/>
     </ItemGroup>
 
 </Project>
